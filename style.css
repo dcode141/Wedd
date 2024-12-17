@@ -493,3 +493,17 @@ footer li {
     top: 31px;
   }
 }
+
+
+/* mobile phone */
+@media (max-width: 390px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 38px;
+
+  }
+
+}
