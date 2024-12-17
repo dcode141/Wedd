@@ -7,6 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
+  padding-right: 0.1rem !important;
   min-height: 4000px;
 }
 
@@ -491,6 +492,9 @@ footer li {
 
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  .mynavbar .offcanvas {
+  width: 150px;
   }
 }
 
