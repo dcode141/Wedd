@@ -8,7 +8,7 @@
 }
 
 body {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'Work Sans', sans-serif;
   padding-right: 0.1rem !important;
   min-height: 4000px;
@@ -157,11 +157,11 @@ body {
 }
 
 .info .alamat {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .info .description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
@@ -177,13 +177,25 @@ body {
 }
 
 .info .card-body {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .info .card-footer {
   border-top: 1px solid var(--darkgreen);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
+}
+
+
+.info a{
+  color: white;
+  background-color: var(--darkgreen);
+  box-shadow: var(--shadow);
+}
+.info a:hover{
+  color: white;
+  background-color: var(--darkgreen);
+  box-shadow: var(--shadow);
 }
 
 
