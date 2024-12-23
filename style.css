@@ -121,7 +121,7 @@ body {
 }
 
 .home .couple {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .home .couple h3 {
@@ -132,6 +132,13 @@ body {
 
 .home .couple img {
   width: 100%;
+}
+
+.home .couple-mobile img{
+  width: 200px;
+  box-shadow: -1px -2px 78px 30px rgba(44, 44, 44, 0.43);
+  /* box-shadow: -1px -2px 78px 30px rgb(56, 60, 27); */
+  /* box-shadow: -1px -2px 123px 20px rgba(56,60,27,0.43); */
 }
 
 .home .heart {
@@ -149,6 +156,10 @@ body {
 .home .heart i {
   margin: auto;
   color: var(--pink);
+}
+
+.home .ayat {
+  font-style: italic;
 }
 
 .info {
@@ -312,7 +323,17 @@ footer li {
 
 /* Media Query */
 /* Extra large */
+
+@media (min-width: 1200px) {
+  .home .couple-mobile{
+    display: none !important;
+  }
+
+}
 @media (max-width: 1200px) {
+  .home .couple-mobile{
+    display: none;
+  }
   .home .heart {
     transform: translateX(-50%) translateY(45px);
   }
@@ -322,6 +343,10 @@ footer li {
 @media (max-width: 992px) {
   html {
     font-size: 75%;
+  }
+
+  .home .couple-mobile{
+    display: none;
   }
 
   .simply-countdown > .simply-section {
@@ -339,6 +364,10 @@ footer li {
 @media (max-width: 768px) {
   html {
     font-size: 65%;
+  }
+
+  .home .couple-mobile{
+    display: none;
   }
 
   .simply-countdown > .simply-section {
@@ -364,7 +393,7 @@ footer li {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 80%;
   }
 
   .simply-countdown > .simply-section {
@@ -385,7 +414,49 @@ footer li {
 /* mobile phone */
 @media (max-width: 390px) {
   html {
-    font-size: 60%;
+    font-size: 76%;
+  }
+
+  .home .couple{
+    display: none;
+  }
+
+  .home .couple-mobile{
+    display: block;
+  }
+
+  .home .couple-mobile h3,
+  .home .couple-mobile p{
+    font-size: 1.4rem;
+  }
+
+  .home .ayat{
+    font-size: 1.4rem;
+  }
+
+  .home .text1{
+    font-size: 1.4rem;
+  }
+
+  .home .couple{
+    font-size: 1.4rem;
+  }
+
+  .info .alamat{
+    font-size: 1.4rem;
+  }
+
+  .info .card-footer{
+    font-size: 1.4rem;
+  }
+
+  .info .description{
+    font-size: 1.4rem;
+  }
+
+  .gallery .ucapan p,
+  .gallery .ucapan span{
+    font-size: 1.4rem;
   }
 
   .simply-countdown > .simply-section {
@@ -395,6 +466,10 @@ footer li {
 
   .hero .ayat{
     margin-top: 10px;
+  }
+
+  .gifts p{
+    font-size: 1.4rem;
   }
 
 }
