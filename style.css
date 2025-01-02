@@ -27,7 +27,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/bg-prewedd.jpg);
+  background-image: url(img/hero-bg.jpg);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -91,10 +91,10 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Tangerine', sans-serif;
   font-size: 3.2rem;
   font-weight: bold;
-  color: var(--darkgreen);
+  color: var(--darkgreen, #383c1b);
 }
 
 .mynavbar .nav-link {
@@ -125,9 +125,10 @@ body {
 }
 
 .home h3 {
-  color: #444;
+  color: black;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 .home p {
@@ -427,7 +428,7 @@ footer li {
 
 
 /* mobile phone */
-@media (max-width: 390px) {
+@media (max-width: 430px) {
   html {
     font-size: 76%;
   }
